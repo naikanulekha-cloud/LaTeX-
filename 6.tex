@@ -1,0 +1,21 @@
+\documentclass[10pt,a4paper]{article} 
+\usepackage[left=2 cm,right=2 cm,top=2 cm,bottom=2 cm]{geometry}
+\usepackage{graphicx}
+\usepackage{subfig}
+\begin{document}
+\begin{center}
+\Large\textbf{Side-by-side figure example}
+\end{center}
+\section*{Figures}
+\begin{figure}[h!]
+\centering
+\subfloat[dio]{
+\includegraphics[width=0.5\textwidth]{dio.jpeg}
+}
+\hspace{0.10\textwidth}
+\subfloat[jotaro]{
+\includegraphics[width=0.35\textwidth]{jotaro.jpeg}
+}
+\caption*{Side-by-side images of ddio and jotaro}
+\end{figure}
+\end{document}
